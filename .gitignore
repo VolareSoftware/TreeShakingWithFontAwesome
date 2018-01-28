@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/TreeShakingWithFontAwesome/.vs
+/src/TreeShakingWithFontAwesome/Web/bin
+/src/TreeShakingWithFontAwesome/Web/obj/Debug
