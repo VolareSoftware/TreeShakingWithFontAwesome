@@ -9,7 +9,7 @@
   "author": "Volare Systems, Inc.",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --colors --display-error-details"
+    "build": "webpack --colors --watch --display-error-details"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "1.1.3",
