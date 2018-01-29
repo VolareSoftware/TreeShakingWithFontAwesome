@@ -3,8 +3,33 @@
 <head>
     <meta charset="utf-8" />
     <title>Tree shaking with FontAwesome and webpack</title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    test
+    <div class="text-center" style="font-size: 24px; margin-top: 30px;">
+        <div class="row">
+            <div class="col-xs-2">
+                <div>
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+                Calendar
+            </div>
+            <div class="col-xs-2">
+                <div>
+                    <i class="far fa-envelope"></i>
+                </div>
+                Email
+            </div>
+            <div class="col-xs-2">
+                <div>
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+                Arrow Up
+            </div>
+        </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="/dist/lib.js"></script>
+    <script src="/dist/index.js"></script>
 </body>
 </html>
